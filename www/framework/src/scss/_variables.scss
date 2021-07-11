@@ -1,0 +1,46 @@
+
+$grey: #AAA;
+$gray: #9b9b9b;
+$light-grey: #F2F2F2;
+$dark-grey: #444;
+$red: #ce0a0a;
+$green: #31aa66;
+$purple: #AA4DC8;
+
+$link-color: #AA4DC8;
+$link-color-hover: #22263C;
+
+$mobile-width: 720px;
+$logo-blue: #2098D1;
+$shadow-blocks: rgba(0, 0, 0, 0.05);
+$mobile-width: 720px;
+$percent: 50%;
+
+// Form
+$form-group-margin-bottom: 15px;
+
+// Palette de couleur du thème (dans l'ordre de la palette push sur discord)
+
+$black: #000000;
+$theme-dark-grey: #22263C;
+$theme-orange: #C33D3D;
+$theme-red: #FF0000;
+$theme_purple: rgba(205, 104, 237, 0.2);
+$dark-blue: #328DAA;
+$theme-light-blue: #DAEFFE;
+$theme-grey: #F0F4F7;
+$white: #FFF;
+
+
+// GRILLE
+
+$columns: 12!default;
+$gutter: 20px!default;
+$medium: 640px!default;
+$large: 1024px!default;
+$container-padding: 20px;
+$container-width: calc(100% - #{$container-padding} * 2);
+
+
+
+

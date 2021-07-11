@@ -1,0 +1,69 @@
+/:
+  controller: Base
+  action: default
+
+/tableau-de-bord:
+  controller: Base
+  action: dashboard
+
+
+/s-inscrire:
+  controller: Security
+  action: register
+
+/confirmation:
+  controller: Security
+  action: confirmation
+
+/login:
+  controller: Security
+  action: login
+
+/mot-de-passe-oublie:
+  controller : Security
+  action : recuperation
+
+/changement-mdp:
+  controller: Security
+  action: changementmdp
+  
+/logout:
+  controller: Security
+  action: logout
+
+
+/liste-des-utilisateurs:
+  controller: Security
+  action: listofusers
+
+/articles:
+  controller: Base
+  action: articles
+
+/articles-add:
+  controller: Security
+  action: addArticle
+
+/articles-edit:
+  controller: Base
+  action: editArticle
+
+/display-articles:
+  controller: Base
+  action: displayArticle
+  
+/utilisateurs:
+  controller: Base
+  action: users
+
+/pages:
+  controller: Base
+  action: pages
+
+/display-pages:
+  controller: Base
+  action: displayPage
+
+/apparence:
+  controller: Base
+  action: apparence

@@ -1,0 +1,52 @@
+#row{
+    height:100%;
+    // background-color: red;
+}
+
+#nav-left{
+    background-color: $theme-dark-grey;
+    height: 100%;
+    width: 15%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#liste{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: #ffff;
+}
+
+.menu{
+    display: flex;
+    //font-weight: bolder;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 2px;
+    height: 100%;
+    &:hover{
+        color: #328DAA;
+        cursor: pointer;
+    }
+    
+}
+
+.container-flexbox-nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-left-nav{
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+        color: $dark-blue;
+    }
+}
